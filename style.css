@@ -1,6 +1,32 @@
+/*---------------GLOBAL STYLES(SMALL SCREEN)---------------------------------------------*/
+body{
+    width:375px;
+    margin: 0 auto;
+}
+main a{
+    background-color: #590242;
+    width: 100px;
+    height: 25px;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+/*---------------------------MEDIUM SCREEN---------------------------------------------------*/
+@media screen and (min-width:834px){
+    body{
+        width:834px;
+    }
+}
 /*---------------------------------COLOR------------------------------------------------------*/
 body{
     background-color: #020659;
+}
+header{
+    background: linear-gradient(to right,#030A8C 0%, #000 100%);
+}
+#trending, #playlists, #curated{
+    background-color: #fff;
 }
 /*-------------------------------MENU---------------------------------------------------------*/
 ul {
@@ -137,6 +163,9 @@ audio::-webkit-media-controls-enclosure {
     background: #fff;
 }
 /*----------------TEXT-------------------------------------------------------------------------*/
+header h2{
+    color:#fff;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
@@ -154,6 +183,9 @@ h2,h3{
 }
 p,dl,dd{
     font-size: 1em;
+}
+dl{
+    color:#590242;
 }
 footer p{
     font-size: .75em;
