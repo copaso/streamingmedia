@@ -3,6 +3,7 @@ body{
     width:375px;
     margin: 0 auto;
 }
+/*---------------BUTTON---------------------------------------------*/
 main a{
     background-color: #590242;
     width: 100px;
@@ -25,8 +26,20 @@ body{
 header{
     background: linear-gradient(to right,#030A8C 0%, #000 100%);
 }
-#trending, #playlists, #curated{
+main{
     background-color: #fff;
+    padding: 15px;
+}
+#playlists .scroll{
+    background-color: #2699FB;
+}
+#playlists section{
+    background-color: #0D8DFB;
+    padding: 10px;
+}
+footer{
+    background-color: #fff;
+    padding: 30px;
 }
 /*-------------------------------MENU---------------------------------------------------------*/
 ul {
@@ -189,4 +202,10 @@ dl{
 }
 footer p{
     font-size: .75em;
+    color: #590242;
+    text-align: center;
+}
+#playlists h3{
+    color: #fff;
+    text-align: center;
 }
